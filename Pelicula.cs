@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArchivosJSONAplicacion
 {
-    class Pelicula
+     public class Pelicula
     {
         public string Nombre { get; set; }
         public int Año { get; set; }
