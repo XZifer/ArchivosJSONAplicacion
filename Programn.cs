@@ -91,9 +91,16 @@ namespace ArchivosJSONAplicacion
                     }
                 }
             };
-            
-            Console.WriteLine("Presione enter para leer el archivo json");
-            Console.ReadLine();
+
+            List<Pelicula> listapeliculas = new List<Pelicula>();
+            listapeliculas.Add(pelicula1);
+            listapeliculas.Add(pelicula2);
+            listapeliculas.Add(pelicula3);
+            Archivosjson archivosjson = new Archivosjson();
+            archivosjson.SerializarPeliculas(listapeliculas);
+
+            //Console.WriteLine("Presione enter para leer el archivo json");
+            //Console.ReadLine();
             
             //Console.WriteLine("Pelicula:"+pelicula1.Nombre);
             //Console.WriteLine("Actores:");
