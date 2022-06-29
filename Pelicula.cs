@@ -12,6 +12,7 @@ namespace ArchivosJSONAplicacion
         public int Año { get; set; }
         public TipoGenero Genero { get; set; }
         public bool EsParaAdultos { get; set; }
-        public List<Actor> Actores { get; set; }
+        public List<Actor> ListaDeActores { get; set; } = new List<Actor>();
+
     }
 }

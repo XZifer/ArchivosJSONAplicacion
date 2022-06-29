@@ -1,0 +1,15 @@
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.csproj.AssemblyReference.cache
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.AssemblyInfoInputs.cache
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.AssemblyInfo.cs
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\ArchivosJSONAplicacion.exe
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\ArchivosJSONAplicacion.deps.json
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\ArchivosJSONAplicacion.runtimeconfig.json
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\ArchivosJSONAplicacion.dll
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\ArchivosJSONAplicacion.pdb
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.dll
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\refint\ArchivosJSONAplicacion.dll
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.pdb
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ArchivosJSONAplicacion.genruntimeconfig.cache
+C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\obj\Debug\net6.0\ref\ArchivosJSONAplicacion.dll

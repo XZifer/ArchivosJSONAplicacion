@@ -10,5 +10,6 @@ namespace ArchivosJSONAplicacion
     {
         public string nombre { get; set; }
         public DateTime fechaDeNacimiento  { get; set; }
+
     }
 }
