@@ -6,12 +6,10 @@ namespace ArchivosJSONAplicacion
     {
         public string RutaDelArchivo { get; set; }
         public string NombreDelArchivo { get; set; }
-        public string jsonString { get; set; }
 
         public Archivosjson()
         {
-            RutaDelArchivo = @"C:\Users\Luis Fernando\source\repos\XZifer\
-                           Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\";
+            RutaDelArchivo = @"C:\Users\Luis Fernando\source\repos\XZifer\Algoritmos2\ArchivosJSONAplicacion\bin\Debug\net6.0\";
             NombreDelArchivo = "favoritos.json";
         }
 
@@ -37,14 +35,15 @@ namespace ArchivosJSONAplicacion
             else
             {
                 Console.WriteLine("Serializando Peliculas");
-                jsonString = JsonSerializer.Serialize(peliculas);
+                string jsonString = JsonSerializer.Serialize(peliculas);
                 File.WriteAllText(RutaDelArchivo + NombreDelArchivo, jsonString);
-                return "Serializacion exitosa";
+                Console.WriteLine("Serializacion exitosa");
+                return jsonString;
             }
         }
         
         //Deserializa el archivo json y lo imprime en consola
-        public List<Pelicula> DeserializarPeliculas()
+        public List<Pelicula> DeserializarPeliculas(string jsonString)
         {
             List<Pelicula>? peliculasEnArchivo = new List<Pelicula>();
             if (ExisteArchivoDiario())

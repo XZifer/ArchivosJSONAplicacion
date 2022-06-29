@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArchivosJSONAplicacion
 {
-    enum TipoGenero
+    public enum TipoGenero
     {
         Accion,
         Suspenso,
