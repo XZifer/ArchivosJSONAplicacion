@@ -91,15 +91,17 @@ namespace ArchivosJSONAplicacion
                     }
                 }
             };
-
+            Console.WriteLine("Serializando Peliculas");
             string fileName = "favoritos.json";
             string jsonString1 = JsonSerializer.Serialize(pelicula1);
             string jsonString2 = JsonSerializer.Serialize(pelicula2);
             string jsonString3 = JsonSerializer.Serialize(pelicula3);
-            string jsonStringtotal = jsonString1 +"\n"+ jsonString2 +"\n"+ jsonString3;
+            string jsonStringtotal = jsonString1 + "\n" + jsonString2 + "\n" + jsonString3;
             File.WriteAllText(fileName, jsonStringtotal);
 
             Console.WriteLine(File.ReadAllText(fileName));
+            Console.ReadLine();
+            Console.WriteLine();
 
             //Console.WriteLine("Pelicula:"+pelicula1.Nombre);
             //Console.WriteLine("Actores:");
